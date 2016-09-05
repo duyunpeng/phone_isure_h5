@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    color: #5f5f5f;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 10
+}
+
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", "Microsoft YaHei"
+}
+
+img, a {
+    border: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.heade {
+    background-color: #ce0606;
+    padding: 10px;
+    color: #fff;
+    height: 78px;
+    position: relative;
+}
+
+.heade a {
+    color: #fff;
+}
+
+.header-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.header-title {
+    margin: 0 68px;
+    font-weight: 400;
+    display: block;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.heade-phone {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.heade-account {
+    line-height: 28px;
+}
+
+.recharge {
+    border: 1px solid #ff8f42;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    line-height: 29px;
+}
+
+.content {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav ul li {
+    width: 33.33333%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.nav ul li a {
+    color: #333;
+}
+
+.nav ul .no {
+    border-bottom: 2px solid #ce0606;
+}
+
+.nav ul .no a {
+    color: #ce0606;
+}
+
+.query {
+    margin-top: 10px;
+}
+
+.query input {
+    width: 100%;
+    border: 1px solid #cccccc;
+    height: 30px;
+    line-height: 30px;
+}
+
+.query .item1 {
+    float: left;
+    width: 24%;
+    padding-right: 2px;
+}
+
+.query .item2 {
+    float: left;
+    width: 24%;
+    padding-right: 2px;
+}
+
+.query .item3 {
+    float: left;
+    width: 40%;
+    padding-right: 2px;
+}
+
+.query .item4 {
+    float: left;
+    width: 12%;
+}
+
+.query .item4 .but {
+    width: 100%;
+    border: 1px solid #ce0606;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ce0606;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+}
+
+.grid-box {
+    margin: 20px 0;
+}
+
+.grid-box .table tr td {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.am-heade {
+    background-color: #ce0606;
+    height: 49px;
+    line-height: 49px;
+    padding: 0 10px;
+    color: #fff;
+    position: relative;
+}
+
+.am-heade .am-header-title {
+    margin: 0 20%;
+    letter-spacing: 5px;
+    color: #fff;
+    line-height: 49px;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sign-box {
+    margin-top: 50px;
+}
+
+.sign-btn {
+    background-color: #ce0606;
+    color: #fff;
+}
+
+.sign-btn:hover, .btn:focus {
+    background-color: #c21717;
+    color: #fff;
+}
+
+.regist-box {
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.regist-box .for-item {
+    position: relative;
+    padding-right: 10px;
+    margin: 5px 0;
+}
+
+.regist-box .for-item .name {
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+    padding: 6px 0px;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.regist-box .for-item .conter {
+    width: 70%;
+    float: left;
+}
+
+.regist-box .for-item .conter .form-control {
+    font-size: 12px;
+}
+
+.regist-box .for-item .conter .form-control:focus {
+    border-color: #d85742;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(233, 87, 70, 0.6);
+}
+
+.red-symbol {
+    color: #ce0606;
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+    padding: 6px 0px;
+}
+
+.sfzy-list {
+    width: 33.33333%;
+    padding-right: 5px;
+    float: left;
+}
+
+.sfzy-list .form-control {
+    padding: 6px 0;
+}
+
+.regist-box .for-item .conter .no {
+    padding-right: 0;
+}
+
+.regist-box .botm-but {
+    margin: 20px 0;
+}
+
+.pic-img {
+    width: 68px;
+    height: 68px;
+}
+
+/*ajax头像上传罩罩*/
+.file_upload_mask, .file_upload_load {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.file_upload_load {
+    background: rgba(0, 0, 0, 0.6) url(../images/load.gif) no-repeat center;
+    opacity: 0.5;
+    z-index: 9999999999999;
+    display: none;
+}
+
+.img-upload input {
+    display: none;
+}
+
+.img-box {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.img-box li {
+    float: left;
+    margin: 3px;
+}
+
+.img-box li button {
+    padding-left: -17px;
+    position: relative;
+    display: block;
+}
+
+.img-box img {
+    width: 80px;
+    height: 80px;
+}
+
+.img-box div {
+    margin-top: 2px;
+}
+
+.dark {
+    color: #333 !important
+}
+
+.white {
+    color: #fff !important
+}
+
+.red {
+    color: #dd5a43 !important
+}
+
+.light-red {
+    color: #f77 !important
+}
+
+.blue {
+    color: #478fca !important
+}
+
+.light-blue {
+    color: #93cbf9 !important
+}
+
+.green {
+    color: #69aa46 !important
+}
+
+.light-green {
+    color: #b0d877 !important
+}
+
+.orange {
+    color: #ff892a !important
+}
+
+.light-orange {
+    color: #fcac6f !important
+}
+
+.orange2 {
+    color: #feb902 !important
+}
+
+.purple {
+    color: #a069c3 !important
+}
+
+.pink {
+    color: #c6699f !important
+}
+
+.pink2 {
+    color: #d6487e !important
+}
+
+.brown {
+    color: #a52a2a !important
+}
+
+.grey {
+    color: #777 !important
+}
+
+.light-grey {
+    color: #bbb !important
+}
+
+.policy_all {
+
+}
+
+.policy_back {
+}
+
+.policy_claim {
+
+}

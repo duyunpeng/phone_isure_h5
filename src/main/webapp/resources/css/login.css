@@ -1,0 +1,12 @@
+.loginVerification input{
+    width: 60%;
+    float: left;
+}
+.loginVerification img{
+    width: 40%;
+    height: 35px;
+    float: left;
+}
+.checkbox{
+    clear: left;
+}
